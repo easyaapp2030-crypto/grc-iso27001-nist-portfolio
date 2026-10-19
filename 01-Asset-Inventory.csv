@@ -1,0 +1,9 @@
+Asset ID,Asset Name,Asset Type,Environment,Proposed Boundary,Illustrative Data Type,Business Owner,Technical Owner,Criticality,Key Dependency,Notes
+SDS-001,Managed engineering laptops,Endpoints,Corporate managed,In scope,Potential CUI and internal,Engineering Manager,Endpoint Administrator,High,Identity and device management,Simulated fleet; encryption and endpoint protection to be validated
+SDS-002,Identity and MFA service,Identity,Cloud tenant,In scope,Account and access metadata,IT Director,Identity Administrator,High,Directory and MFA,Privileged access review required
+SDS-003,Controlled collaboration workspace,Collaboration,Approved cloud service (assumed),In scope,Potential CUI,Program Manager,Collaboration Administrator,High,Identity and conditional access,Authorization and contract suitability require verification
+SDS-004,Encrypted document repository,Storage,Approved cloud service (assumed),In scope,Potential CUI,Program Manager,Cloud Administrator,High,Identity and key management,Storage location and sharing restrictions must be validated
+SDS-005,Security logging and SIEM,Monitoring,Security platform,In scope,Security events and identifiers,Security Manager,SOC Lead,High,Endpoint and cloud log sources,Retention and access settings to be determined
+SDS-006,Backup and recovery service,Recovery,Protected environment,In scope,Potential CUI backups,IT Director,Backup Administrator,High,Repository and encryption keys,Restore testing required
+SDS-007,Public marketing website,Web,Public hosting,Out of scope,Public content,Marketing Manager,Web Administrator,Low,Public DNS,No CUI permitted; interfaces reviewed
+SDS-008,Third-party support portal,External service,Vendor operated,Boundary interface,Support metadata (no CUI assumed),Vendor Manager,Vendor Liaison,Medium,Vendor agreement,Prohibit CUI until approved and assessed
