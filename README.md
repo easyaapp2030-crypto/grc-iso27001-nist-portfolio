@@ -1,24 +1,73 @@
-# Day 3 — Risk Assessment & Risk Register
+# Governance, Risk & Compliance (GRC) Portfolio
 
-**GRC Portfolio Series | Sentinel Defense Solutions (SDS)**  
-**Status:** Simulated educational case study; not a completed audit or certification.
+## Building a Security Governance Program for a Fictional DoD Contractor
 
-## Objective
-Evaluate plausible risks to SDS's simulated CUI environment using a documented, repeatable 5×5 qualitative risk methodology. Identify owners, proposed treatment, residual exposure, and decisions requiring management approval.
+**Organization:** Sentinel Defense Solutions (SDS)  
+**Project:** 10-Part Hands-On GRC Portfolio  
+**Industry:** Defense Contracting  
+**Environment:** Simulated Controlled Unclassified Information (CUI)  
+**Author:** Abe Fakoya, MSc
 
-## Deliverables
-1. [Risk Assessment Methodology](01-Risk-Assessment-Methodology.md) — assumptions, scales, scoring and review criteria.
-2. [Risk Register](02-Risk-Register.csv) — 12 traceable risk scenarios, ownership, inherent and target residual scores, controls and milestones.
-3. [Risk Assessment Report](03-Risk-Assessment-Report.md) — assessment results and leadership priorities.
-4. [Risk Treatment Recommendations](04-Risk-Treatment-Recommendations.md) — sequenced treatment actions, evidence and decisions.
+## Project Overview
 
-## Context and traceability
-The assessment assumes the Day 1 scope covers managed endpoints, identity services, cloud collaboration, a CUI repository, remote access, backup and logging, and approved external exchanges. Day 2's inventory and CUI flow are the authoritative project records; **asset identifiers and control status must be reconciled against those records** before these illustrative risks are treated as validated findings.
+This repository documents the development of a Governance, Risk & Compliance (GRC) program for Sentinel Defense Solutions (SDS), a fictional 100-employee defense contractor.
 
-**Framework context:** NIST SP 800-30 Rev. 1 informs risk assessment; NIST SP 800-171 Rev. 3 provides CUI security requirements for applicable contractor systems (confirm contract-required revision); CMMC Level 2 assessments are based on the applicable contractual rule and associated NIST SP 800-171 revision; NIST CSF 2.0 provides outcome categories. Selected NIST SP 800-53 and ISO/IEC 27001 references may be used as supporting crosswalks, not as evidence of certification or authorization.
+The project demonstrates how an organization can establish security governance, define its information system boundary, identify assets, assess cybersecurity risks, map security requirements, evaluate compliance gaps, and develop risk treatment and audit readiness documentation.
 
-## Interpretation
-Scores and weaknesses are **hypothetical assumptions**, not verified observations. A target residual score is a planning estimate, not evidence that controls operate effectively. Risk acceptance requires documented authority.
+Each stage builds upon the deliverables from previous stages.
 
-## Next: Day 4
-Map proposed safeguards to applicable CUI requirements and identify evidence needed to assess implementation.
+## Project Roadmap
+
+| Day | Project Focus | Status |
+|---|---|---|
+| [Day 1](Day-01-Organization-and-Scope/) | Organization Profile & Security Scope | Complete |
+| [Day 2](Day-02-Asset-Inventory-and-CUI/) | Asset Inventory & CUI Classification | Complete |
+| [Day 3](Day-03-Risk-Assessment-and-Register/) | Risk Assessment & Risk Register | Complete |
+| Day 4 | Security Control Mapping | Upcoming |
+| Day 5 | Compliance Gap Assessment | Planned |
+| Day 6 | Security Policy Development | Planned |
+| Day 7 | Risk Treatment Plan | Planned |
+| Day 8 | Audit Evidence & Readiness | Planned |
+| Day 9 | GRC Dashboard & Risk Heatmap | Planned |
+| Day 10 | Executive Report & Lessons Learned | Planned |
+
+## Frameworks Referenced
+
+- **NIST SP 800-171:** Security requirements for protecting CUI in applicable nonfederal systems.
+- **CMMC Level 2:** Assessment context for applicable DoD contractual requirements.
+- **NIST SP 800-30:** Guidance for conducting cybersecurity risk assessments.
+- **NIST SP 800-53:** Selected security and privacy control references.
+- **NIST CSF 2.0:** Cybersecurity risk management and governance outcomes.
+- **ISO/IEC 27001:** Information Security Management System principles and risk management.
+
+The frameworks serve different purposes and are not treated as interchangeable compliance obligations.
+
+## Supporting Documentation
+
+- [Framework Crosswalk](Framework-Crosswalk/) — Security framework mapping and reference documentation.
+- [Project Roadmap](Project-Roadmap.md) — Project objectives, stages, and planned deliverables.
+
+## Project Methodology
+
+The project follows a risk-based approach:
+
+1. Define organizational scope and responsibilities.
+2. Identify information assets and simulated CUI data flows.
+3. Assess and prioritize cybersecurity risks.
+4. Map applicable security requirements and supporting controls.
+5. Evaluate gaps and develop remediation plans.
+6. Establish policies, evidence requirements, and executive reporting.
+
+All assessments and findings are based on fictional scenarios and documented assumptions.
+
+## About the Author
+
+**Abe Fakoya, MSc**
+
+Cybersecurity professional with experience in information systems security, governance, risk management, security compliance, identity and access management, and DoD security environments.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/abe-fakoya-msc-0657bb23a/)
+
+---
+
+**Disclaimer:** Sentinel Defense Solutions is a fictional organization. All information, assets, risks, and findings are simulated for educational and professional portfolio purposes. This project does not represent an actual security authorization, independent audit, CMMC assessment, or ISO/IEC 27001 certification.
