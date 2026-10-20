@@ -1,77 +1,24 @@
-# Governance, Risk & Compliance (GRC) Portfolio
+# Day 3 — Risk Assessment & Risk Register
 
-### Building a Security Governance Program for a Fictional DoD Contractor
+**GRC Portfolio Series | Sentinel Defense Solutions (SDS)**  
+**Status:** Simulated educational case study; not a completed audit or certification.
 
-**Organization:** Sentinel Defense Solutions (SDS)  
-**Project Type:** Hands-on GRC Portfolio Case Study  
-**Industry:** Defense Contracting  
-**Environment:** Simulated Controlled Unclassified Information (CUI)  
-**Author:** Abe Fakoya, MSc
+## Objective
+Evaluate plausible risks to SDS's simulated CUI environment using a documented, repeatable 5×5 qualitative risk methodology. Identify owners, proposed treatment, residual exposure, and decisions requiring management approval.
 
-## Project Overview
+## Deliverables
+1. [Risk Assessment Methodology](01-Risk-Assessment-Methodology.md) — assumptions, scales, scoring and review criteria.
+2. [Risk Register](02-Risk-Register.csv) — 12 traceable risk scenarios, ownership, inherent and target residual scores, controls and milestones.
+3. [Risk Assessment Report](03-Risk-Assessment-Report.md) — assessment results and leadership priorities.
+4. [Risk Treatment Recommendations](04-Risk-Treatment-Recommendations.md) — sequenced treatment actions, evidence and decisions.
 
-This portfolio demonstrates the practical development of a Governance, Risk & Compliance program for Sentinel Defense Solutions (SDS), a fictional 100-employee defense contractor.
+## Context and traceability
+The assessment assumes the Day 1 scope covers managed endpoints, identity services, cloud collaboration, a CUI repository, remote access, backup and logging, and approved external exchanges. Day 2's inventory and CUI flow are the authoritative project records; **asset identifiers and control status must be reconciled against those records** before these illustrative risks are treated as validated findings.
 
-The project follows a 10-stage approach, beginning with organizational scoping and asset identification, then progressing through risk assessment, security control mapping, gap analysis, policy development, risk treatment, audit readiness, and executive reporting.
+**Framework context:** NIST SP 800-30 Rev. 1 informs risk assessment; NIST SP 800-171 Rev. 3 provides CUI security requirements for applicable contractor systems (confirm contract-required revision); CMMC Level 2 assessments are based on the applicable contractual rule and associated NIST SP 800-171 revision; NIST CSF 2.0 provides outcome categories. Selected NIST SP 800-53 and ISO/IEC 27001 references may be used as supporting crosswalks, not as evidence of certification or authorization.
 
-The goal is to demonstrate how security governance translates regulatory and contractual expectations into documented, risk-informed decisions and actionable security practices.
+## Interpretation
+Scores and weaknesses are **hypothetical assumptions**, not verified observations. A target residual score is a planning estimate, not evidence that controls operate effectively. Risk acceptance requires documented authority.
 
-## Frameworks Referenced
-
-- **NIST SP 800-171:** Security requirements for protecting CUI in applicable nonfederal systems.
-- **CMMC Level 2:** Defense contractor assessment requirements where contractually applicable.
-- **NIST SP 800-53:** Selected security and privacy control references.
-- **ISO/IEC 27001:** Information Security Management System principles.
-- **NIST CSF 2.0:** Cybersecurity risk management outcomes.
-
-Frameworks are used according to their respective purposes; this project does not imply that they are interchangeable or that every framework is mandatory for SDS.
-
-## Project Roadmap
-
-| Day | Focus | Status |
-|---|---|---|
-| [Day 1](Day-01-Organization-and-Scope/) | Organization Profile & Security Scope | Complete |
-| [Day 2](Day-02-Asset-Inventory-and-CUI/) | Asset Inventory & CUI Classification | Complete |
-| Day 3 | Risk Assessment & Risk Register | Upcoming |
-| Day 4 | Security Control Mapping | Planned |
-| Day 5 | Compliance Gap Assessment | Planned |
-| Day 6 | Security Policy Development | Planned |
-| Day 7 | Risk Treatment Plan | Planned |
-| Day 8 | Audit Evidence & Readiness | Planned |
-| Day 9 | GRC Dashboard & Risk Heatmap | Planned |
-| Day 10 | Executive Report & Lessons Learned | Planned |
-
-## Supporting Documentation
-
-- [Framework Crosswalk](Framework-Crosswalk/) — Supporting security framework mapping and reference material.
-- [Project Roadmap](Project-Roadmap.md) — Overall project objectives and planned deliverables.
-
-## Key Project Deliverables
-
-The portfolio will progressively demonstrate:
-
-- Information security governance and accountability
-- System boundary and CUI scoping
-- Asset inventory and information classification
-- Risk identification, analysis, and prioritization
-- Security control mapping and gap identification
-- Policy development and risk treatment
-- Audit evidence organization and executive communication
-
-## Methodology
-
-Each stage builds on previous deliverables to maintain consistency across the simulated organization.
-
-The project uses fictional business information, illustrative assets, documented assumptions, and risk-based analysis to demonstrate professional GRC workflows.
-
-## About the Author
-
-**Abe Fakoya, MSc**
-
-Cybersecurity professional with experience in information systems security, governance, risk management, security compliance, identity and access management, and DoD security environments.
-
-[Connect on LinkedIn](https://www.linkedin.com/in/abe-fakoya-msc-0657bb23a/)
-
----
-
-**Disclaimer:** Sentinel Defense Solutions is a fictional organization. All information, assets, findings, and evidence in this repository are simulated for educational and professional portfolio purposes. This project does not represent an actual security authorization, independent audit, CMMC assessment, or ISO/IEC 27001 certification.
+## Next: Day 4
+Map proposed safeguards to applicable CUI requirements and identify evidence needed to assess implementation.
