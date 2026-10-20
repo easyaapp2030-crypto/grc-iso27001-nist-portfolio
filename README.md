@@ -1,56 +1,77 @@
-# Building a GRC Program From Scratch | DoD Contractor Case Study
+# Governance, Risk & Compliance (GRC) Portfolio
 
-**A 10-part, hands-on cybersecurity governance, risk, and compliance portfolio project**  
-**Author:** Abe Fakoya, MSc  
-**Scenario:** Sentinel Defense Solutions (SDS), a **fictional** 100-person U.S. defense contractor  
-**Planned launch:** Saturday, October 17, 2026
+### Building a Security Governance Program for a Fictional DoD Contractor
 
-> **Simulation notice:** All organizations, personnel, system diagrams, assets, risks, evidence, and findings in this repository are fictional and created solely for education and portfolio demonstration. No actual CUI, government system details, customer records, or production credentials are included. This work is not an ISO 27001 certification, CMMC assessment, or government ATO.
+**Organization:** Sentinel Defense Solutions (SDS)  
+**Project Type:** Hands-on GRC Portfolio Case Study  
+**Industry:** Defense Contracting  
+**Environment:** Simulated Controlled Unclassified Information (CUI)  
+**Author:** Abe Fakoya, MSc
 
-## Project objective
+## Project Overview
 
-Build an auditable example of a security governance program: define scope, inventory assets, assess risks, map controls, identify gaps, develop policies and risk treatment, assemble simulated evidence, measure progress, and present findings to leadership.
+This portfolio demonstrates the practical development of a Governance, Risk & Compliance program for Sentinel Defense Solutions (SDS), a fictional 100-employee defense contractor.
 
-## Framework approach
+The project follows a 10-stage approach, beginning with organizational scoping and asset identification, then progressing through risk assessment, security control mapping, gap analysis, policy development, risk treatment, audit readiness, and executive reporting.
 
-| Framework | How it is used in this project |
-|---|---|
-| NIST SP 800-171 Rev. 2 / CMMC Level 2 | Primary baseline for the **illustrative** contractor CUI environment; applicability and contract requirements must be verified in a real engagement. |
-| NIST SP 800-53 Rev. 5 | Reference catalog for additional security/privacy controls and comparison; not treated as an automatic contractor requirement. |
-| NIST CSF 2.0 | Organizes cybersecurity governance and risk-management outcomes. |
-| ISO/IEC 27001:2022 | Provides ISMS governance and continuous-improvement structure; no certification claimed. |
+The goal is to demonstrate how security governance translates regulatory and contractual expectations into documented, risk-informed decisions and actionable security practices.
 
-**Regulatory caveat:** CMMC program implementation, solicitation clauses, and applicable assessment requirements depend on current regulations and individual contract terms. This project is an educational simulation, not legal or compliance advice.
+## Frameworks Referenced
 
-## Ten-part roadmap
+- **NIST SP 800-171:** Security requirements for protecting CUI in applicable nonfederal systems.
+- **CMMC Level 2:** Defense contractor assessment requirements where contractually applicable.
+- **NIST SP 800-53:** Selected security and privacy control references.
+- **ISO/IEC 27001:** Information Security Management System principles.
+- **NIST CSF 2.0:** Cybersecurity risk management outcomes.
 
-| Day | Focus | Deliverable | Status |
-|---|---|---|---|
-| 01 | Organization and scope | Profile, scope statement, system boundary, stakeholder matrix | Draft ready for review |
-| 02 | Asset inventory and classification | Asset register and CUI data-flow inventory | Planned |
-| 03 | Risk assessment | Methodology and risk register | Planned |
-| 04 | Control mapping | NIST 800-171 / CMMC crosswalk with ISO/NIST references | Planned |
-| 05 | Gap assessment | Current-state assessment and findings | Planned |
-| 06 | Security policies | Selected policy and procedure drafts | Planned |
-| 07 | Risk treatment | POA&M-style remediation and risk treatment plan | Planned |
-| 08 | Audit evidence | Simulated evidence inventory and assessment checklist | Planned |
-| 09 | GRC dashboard | Risk and compliance metrics dashboard | Planned |
-| 10 | Executive report | Management summary, decisions, and lessons learned | Planned |
+Frameworks are used according to their respective purposes; this project does not imply that they are interchangeable or that every framework is mandatory for SDS.
 
-## Start here
+## Project Roadmap
 
-- [Day 1 overview](Day-01-Organization-and-Scope/README.md)
-- [Organization profile](Day-01-Organization-and-Scope/01-Organization-Profile.md)
-- [ISMS and CUI environment scope](Day-01-Organization-and-Scope/02-Scope-Statement.md)
-- [High-level system boundary diagram](Day-01-Organization-and-Scope/03-System-Boundary.md)
-- [Stakeholder and responsibility matrix](Day-01-Organization-and-Scope/04-Stakeholders-RACI.md)
-- [Assumptions and decisions](Day-01-Organization-and-Scope/05-Assumptions-and-Decisions.md)
-- [Framework usage notes](Framework-Crosswalk/README.md)
+| Day | Focus | Status |
+|---|---|---|
+| [Day 1](Day-01-Organization-and-Scope/) | Organization Profile & Security Scope | Complete |
+| [Day 2](Day-02-Asset-Inventory-and-CUI/) | Asset Inventory & CUI Classification | Complete |
+| Day 3 | Risk Assessment & Risk Register | Upcoming |
+| Day 4 | Security Control Mapping | Planned |
+| Day 5 | Compliance Gap Assessment | Planned |
+| Day 6 | Security Policy Development | Planned |
+| Day 7 | Risk Treatment Plan | Planned |
+| Day 8 | Audit Evidence & Readiness | Planned |
+| Day 9 | GRC Dashboard & Risk Heatmap | Planned |
+| Day 10 | Executive Report & Lessons Learned | Planned |
 
-## Publication approach
+## Supporting Documentation
 
-The GRC mini-project is an additional **Saturday** series. Regular Tuesday and Thursday cybersecurity insights continue separately. Each installment should link to a completed public deliverable rather than imply an audit or certification has occurred.
+- [Framework Crosswalk](Framework-Crosswalk/) — Supporting security framework mapping and reference material.
+- [Project Roadmap](Project-Roadmap.md) — Overall project objectives and planned deliverables.
 
-## Use and attribution
+## Key Project Deliverables
 
-Portfolio content is provided for educational review. Do not reuse fictional assessment results as evidence of actual organizational compliance.
+The portfolio will progressively demonstrate:
+
+- Information security governance and accountability
+- System boundary and CUI scoping
+- Asset inventory and information classification
+- Risk identification, analysis, and prioritization
+- Security control mapping and gap identification
+- Policy development and risk treatment
+- Audit evidence organization and executive communication
+
+## Methodology
+
+Each stage builds on previous deliverables to maintain consistency across the simulated organization.
+
+The project uses fictional business information, illustrative assets, documented assumptions, and risk-based analysis to demonstrate professional GRC workflows.
+
+## About the Author
+
+**Abe Fakoya, MSc**
+
+Cybersecurity professional with experience in information systems security, governance, risk management, security compliance, identity and access management, and DoD security environments.
+
+[Connect on LinkedIn](https://www.linkedin.com/in/abe-fakoya-msc-0657bb23a/)
+
+---
+
+**Disclaimer:** Sentinel Defense Solutions is a fictional organization. All information, assets, findings, and evidence in this repository are simulated for educational and professional portfolio purposes. This project does not represent an actual security authorization, independent audit, CMMC assessment, or ISO/IEC 27001 certification.
