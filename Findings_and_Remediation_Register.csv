@@ -1,0 +1,11 @@
+Finding ID,Related Test,Finding,Illustrative Severity,Proposed Owner Role,Recommended Action,Closure Evidence,Target Date,Status,Retest Result
+F-001,AC-01,Stale contractor access,High,IAM Lead,Investigate and remediate: Stale contractor access,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-002,AC-02,Excessive admin privileges,High,IAM Lead,Investigate and remediate: Excessive admin privileges,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-003,IA-01,Legacy exception not documented,High,IAM Lead,Investigate and remediate: Legacy exception not documented,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-005,AU-02,No CUI exfiltration use case,Medium,SOC Lead,Investigate and remediate: No CUI exfiltration use case,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-006,CM-01,Unmanaged endpoint variance,Medium,Endpoint Lead,Investigate and remediate: Unmanaged endpoint variance,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-007,IR-01,No completed tabletop evidence,High,IR Lead,Investigate and remediate: No completed tabletop evidence,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-008,RA-01,Critical findings overdue,High,Vulnerability Lead,Investigate and remediate: Critical findings overdue,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-010,MP-01,No evidence provided,Medium,IT Operations,Investigate and remediate: No evidence provided,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-011,PS-01,Evidence access pending,Medium,HR Security,Investigate and remediate: Evidence access pending,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested
+F-012,CA-01,No formal retest cadence,Medium,GRC Lead,Investigate and remediate: No formal retest cadence,Approved artifacts and documented successful retest,TBD,Open (simulated),Not retested

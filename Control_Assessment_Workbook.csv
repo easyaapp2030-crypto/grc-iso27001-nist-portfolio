@@ -1,0 +1,13 @@
+Test ID,NIST SP 800-171 Rev 2,Control Area,Simulated Assessment Procedure,Expected Evidence,Simulated Result,Simulated Gap,Illustrative Priority,Evidence ID,Assessor,Assessment Date
+AC-01,3.1.1,Authorized access,Review account inventory and approvals,"Access list, approval tickets",Partially satisfied,Stale contractor access,High,Not supplied,Training assessor,Not performed
+AC-02,3.1.5,Least privilege,Compare role privileges with approved matrix,"Role matrix, access export",Not satisfied,Excessive admin privileges,High,Not supplied,Training assessor,Not performed
+IA-01,3.5.3,Multifactor authentication,Review MFA enforcement for privileged accounts,"IdP settings, auth logs",Partially satisfied,Legacy exception not documented,High,Not supplied,Training assessor,Not performed
+AU-01,3.3.1,Audit logging,Inspect logging configuration and samples,"SIEM config, sample logs",Satisfied,No simulated gap,Low,Not supplied,Training assessor,Not performed
+AU-02,3.3.5,Audit correlation,Review log correlation use cases,SIEM rule exports,Partially satisfied,No CUI exfiltration use case,Medium,Not supplied,Training assessor,Not performed
+CM-01,3.4.1,Configuration baselines,Compare endpoints to approved baselines,"Baseline, scan export",Partially satisfied,Unmanaged endpoint variance,Medium,Not supplied,Training assessor,Not performed
+IR-01,3.6.1,Incident response,Review IR plan and tabletop records,"IR plan, exercise record",Not satisfied,No completed tabletop evidence,High,Not supplied,Training assessor,Not performed
+RA-01,3.11.2,Vulnerability scanning,Review cadence and findings disposition,"Scan reports, tickets",Partially satisfied,Critical findings overdue,High,Not supplied,Training assessor,Not performed
+SC-01,3.13.8,Encryption in transit,Inspect approved transport protections,"TLS settings, network diagram",Satisfied,No simulated gap,Low,Not supplied,Training assessor,Not performed
+MP-01,3.8.3,Media sanitization,Inspect disposal workflow and samples,Sanitization records,Not assessed,No evidence provided,Medium,Not supplied,Training assessor,Not performed
+PS-01,3.9.2,Personnel screening,Sample screening attestations,HR attestations,Not assessed,Evidence access pending,Medium,Not supplied,Training assessor,Not performed
+CA-01,3.12.1,Periodic assessments,Review assessment schedule and reports,"Assessment plan, reports",Partially satisfied,No formal retest cadence,Medium,Not supplied,Training assessor,Not performed
