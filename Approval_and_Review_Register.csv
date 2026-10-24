@@ -1,0 +1,4 @@
+Document ID,Document,Owner,Approver,Version,Status,Review cadence,Next action
+SDS-SEC-POL-001,Information Security Policy,ISSO,Executive Sponsor,0.1,Draft / Not approved,Annual,Review with system owners
+SDS-SEC-PROC-AC-001,Access Control Procedure,IAM Administrator / ISSO,System Owner,0.1,Draft / Not approved,Annual / change-triggered,Validate identity workflow
+SDS-SEC-PROC-IR-001,Incident Response Procedure,Incident Response Lead / ISSO,Executive Sponsor,0.1,Draft / Not approved,Annual / after incident,Conduct tabletop exercise

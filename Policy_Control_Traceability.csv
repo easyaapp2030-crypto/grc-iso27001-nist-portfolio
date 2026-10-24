@@ -1,0 +1,9 @@
+Document,Requirement / Activity,NIST SP 800-53 Rev. 5,NIST SP 800-171 Rev. 2 (illustrative),Evidence example,Status
+Information Security Policy,Governance and policy oversight,PM-1; PL-1,Confirm applicability,"Approved policy, exception register",Draft
+Information Security Policy,Configuration and vulnerability management,CM-2; RA-5,3.4.1; 3.11.2,Baseline and scan reports,Draft
+Access Control Procedure,Account lifecycle,AC-2,3.1.1; 3.1.2,"Access tickets, account reviews",Draft
+Access Control Procedure,Least privilege,AC-6,3.1.5,"Role matrix, privileged-access reviews",Draft
+Access Control Procedure,Authentication / MFA,IA-2,3.5.3,MFA settings and access logs,Draft
+Incident Response Procedure,Incident handling,IR-4,3.6.1,Incident case records,Draft
+Incident Response Procedure,Incident reporting,IR-6,3.6.2,"Notification decisions, escalation records",Draft
+Incident Response Procedure,Incident response testing,IR-3,3.6.3,Tabletop report and corrective actions,Draft
