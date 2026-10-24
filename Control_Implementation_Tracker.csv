@@ -1,0 +1,13 @@
+Control ID,Illustrative Risk,Control Family,NIST 800-53 Rev 5,NIST 800-171 Rev 2,CMMC Level 2,ISO 27001:2022 Annex A,Control Owner (Role),Implementation Status,Evidence Status,Gap / Observation,Next Action,Target Date,Verification Status
+AC-01,Unauthorized access to CUI,Access Control,AC-2,3.1.1,AC.L2-3.1.1,A.5.15,IAM Administrator,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+AC-02,Excessive privileges,Access Control,AC-6,3.1.5,AC.L2-3.1.5,A.8.2,Security Manager,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+IA-01,Weak authentication,Identification and Authentication,IA-2,3.5.3,IA.L2-3.5.3,A.8.5,IAM Administrator,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+AU-01,Insufficient audit logging,Audit and Accountability,AU-2,3.3.1,AU.L2-3.3.1,A.8.15,SOC Lead,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+AU-02,Missing log review,Audit and Accountability,AU-6,3.3.3,AU.L2-3.3.3,A.8.16,SOC Lead,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+CM-01,Unapproved configuration changes,Configuration Management,CM-3,3.4.3,CM.L2-3.4.3,A.8.32,IT Operations,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+CM-02,Unmanaged software inventory,Configuration Management,CM-8,3.4.1,CM.L2-3.4.1,A.5.9,IT Operations,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+IR-01,Delayed incident response,Incident Response,IR-4,3.6.1,IR.L2-3.6.1,A.5.26,Incident Response Lead,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+RA-01,Untracked vulnerabilities,Risk Assessment,RA-5,3.11.2,RA.L2-3.11.2,A.8.8,Vulnerability Manager,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+SC-01,CUI exposure in transit,System and Communications Protection,SC-8,3.13.8,SC.L2-3.13.8,A.8.24,Cloud Security Engineer,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+MP-01,Uncontrolled media disposal,Media Protection,MP-6,3.8.3,MP.L2-3.8.3,A.7.10,IT Operations,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
+AT-01,Security awareness gaps,Awareness and Training,AT-2,3.2.1,AT.L2-3.2.1,A.6.3,HR / Security,Not assessed,Not collected,Implementation not verified,Interview owner; request evidence,,Not tested
