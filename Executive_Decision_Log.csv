@@ -1,0 +1,5 @@
+Decision ID,Decision Requested,Proposed Decision Owner,Supporting Artifact,Status,Decision Date,Notes
+DEC-01,Approve remediation owners and milestone dates,System Owner,Day 8 POAM_Tracker.csv,Pending — simulated,TBD,No approval represented
+DEC-02,Approve monitoring KPIs and targets,CISO,Day 9 Security_Metrics_Catalog.csv,Pending — simulated,TBD,Targets illustrative
+DEC-03,Determine treatment of residual high risk,Authorized Risk Official,Day 8 POAM_Tracker.csv,Pending — simulated,TBD,Acceptance not assumed
+DEC-04,Approve independent retest approach,ISSO / Assessment Lead,Day 7 Assessment_Methodology.md,Pending — simulated,TBD,No retest performed
