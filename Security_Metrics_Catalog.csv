@@ -1,0 +1,9 @@
+Metric ID,Metric,Definition,Source,Cadence,Owner,Illustrative Target,Baseline,Limitations
+M-01,Open high-severity POA&M items,Count of open high-severity POA&M rows,POAM_Tracker.csv,Weekly,GRC Lead,Target set by leadership,5,Illustrative baseline; not actual risk
+M-02,Overdue remediation rate,Overdue open actions / open actions with approved due dates,POAM_Tracker.csv,Weekly,GRC Lead,<10% proposed,N/A,No approved due dates yet
+M-03,Evidence completeness,Validated evidence packets / evidence packets requested,Evidence Collection Register,Monthly,Control Owners,>=95% proposed,N/A,No validated evidence supplied
+M-04,MFA coverage,In-scope active accounts with enforced MFA / all in-scope active accounts,Identity provider export,Monthly,IAM Lead,100% or approved exception,N/A,No live system data
+M-05,Privileged access review completion,Completed approved privileged reviews / scheduled reviews,Access review records,Quarterly,IAM Lead,100% proposed,N/A,No live system data
+M-06,Critical vulnerability SLA attainment,Critical findings remediated within approved SLA / critical findings due,Vulnerability management,Monthly,Vulnerability Lead,>=95% proposed,N/A,No live system data
+M-07,Logging source coverage,Required log sources sending usable events / required sources,SIEM source inventory,Monthly,SOC Lead,>=98% proposed,N/A,No live system data
+M-08,Control retest completion,Retests completed / retests scheduled,Assessment schedule,Monthly,GRC Lead,100% proposed,N/A,No retests conducted

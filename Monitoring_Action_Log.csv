@@ -1,0 +1,6 @@
+Action ID,Related Metric,Trigger,Response,Owner,Escalation,Status
+MON-001,M-01,High-severity item increases,"Review exposure, re-prioritize, and notify risk owner",GRC Lead,Security Director,Proposed
+MON-002,M-03,Evidence incomplete,Request missing evidence and flag control as unverified,Control Owner,GRC Lead,Proposed
+MON-003,M-04,MFA coverage below approved target,Investigate affected accounts and approved exceptions,IAM Lead,ISSO,Proposed
+MON-004,M-06,Critical vulnerability SLA breached,Escalate overdue vulnerability and assess compensating controls,Vulnerability Lead,Security Director,Proposed
+MON-005,M-07,Required log source stops reporting,Open incident/change ticket and restore telemetry,SOC Lead,ISSO,Proposed
