@@ -1,0 +1,11 @@
+POAM ID,Severity,Priority Tier,Proposed Sequence,Reason,Dependency
+POAM-001,High,P1,Near term,Potential exposure to CUI / mission operations,Confirm scope and obtain owner approval
+POAM-002,High,P1,Near term,Potential exposure to CUI / mission operations,Confirm scope and obtain owner approval
+POAM-003,High,P1,Near term,Potential exposure to CUI / mission operations,Confirm scope and obtain owner approval
+POAM-004,Medium,P2,Following P1,Assurance or control gap,Confirm scope and obtain owner approval
+POAM-005,Medium,P2,Following P1,Assurance or control gap,Confirm scope and obtain owner approval
+POAM-006,High,P1,Near term,Potential exposure to CUI / mission operations,Confirm scope and obtain owner approval
+POAM-007,High,P1,Near term,Potential exposure to CUI / mission operations,Confirm scope and obtain owner approval
+POAM-008,Medium,P2,Following P1,Assurance or control gap,Confirm scope and obtain owner approval
+POAM-009,Medium,P2,Following P1,Assurance or control gap,Confirm scope and obtain owner approval
+POAM-010,Medium,P2,Following P1,Assurance or control gap,Confirm scope and obtain owner approval
